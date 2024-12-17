@@ -1,9 +1,10 @@
+// 副歌时间
 const createOption = require('../util/option.js')
 module.exports = (query, request) => {
   return request(
-    `/api/artist/head/info/get`,
+    `/api/song/chorus`,
     {
-      id: query.id,
+      ids: JSON.stringify([query.id]),
     },
     createOption(query),
   )

@@ -1,4 +1,28 @@
 # 更新日志
+### 4.25.0 | 2024.11.16
+- feat: 增加副歌时间、相关歌单推荐接口，原有相关歌单接口已废弃；fix: 将部分易盾白名单接口替换为eapi [#30](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/30)
+- fix: 播客上传接口 [#32](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/32)
+
+### 4.24.0 | 2024.10.20
+- 新增用户徽章，用户状态，听歌足迹，今日收听，歌单导入等接口 [#29](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/29)
+ 
+### 4.23.3 | 2024.10.15
+- 更正iPhone请求的cookie [#28](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/28)
+
+### 4.23.2 | 2024.10.12
+- cookie参数补充 [#27](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/27)
+
+### 4.23.1 | 2024.10.06
+- 模拟pc客户端的ua和cookie字段 [#26](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/26)
+
+### 4.23.0 | 2024.10.03
+- 修复登录冻结问题 [#25](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/25)
+- 增加歌曲动态封面接口 [#24](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/24)
+- 增加用户是否互相关注接口 [#24](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/24)
+- 增加歌曲是否喜爱接口 [#24](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/24)
+- 增加 杜比全景声 音质的说明。补充客户端下载链接新版接口的说明 [#23](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/23)
+
+
 ### 4.22.0 | 2024.07.16
 - 增加部分接口(获取客户端歌曲下载链接 - 新版、当前账号关注的用户/歌手)；eapi返回值加密可被控制，默认不加密；代码优化 [#15](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/15)
 - 增加`会员下载歌曲记录` `会员本月下载歌曲记录` `已购买单曲` 等接口 [#16](https://gitlab.com/Binaryify/neteasecloudmusicapi/-/merge_requests/16)
@@ -961,7 +985,7 @@
 
 - 新增 云盘歌曲删除, 热门话题, 电台 - 推荐类型, 电台 - 非热门类型, 电台 - 今日优选, 心动模式/智能播放等接口
 
-- 更新文档:banner 接口 增加 `type` 参数; 获取动态消息接口增加 `pagesize` 和 `lasttime` 参数; 电台 - 付费精选接口修改默认`limit`为 30
+- 更新文档:banner 接口 增加 `type` 参数; 获取动态列表接口增加 `pagesize` 和 `lasttime` 参数; 电台 - 付费精选接口修改默认`limit`为 30
 
 ### 3.8.1 | 2019.04.24
 
