@@ -1,4 +1,11 @@
-const { default: axios } = require('axios')
+/*
+ * @Author: freysu
+ * @Date: 2024-12-19 08:04:31
+ * @LastEditors: freysu
+ * @LastEditTime: 2024-12-19 08:15:37
+ * @Description: file content
+ */
+const axios = require('axios')
 
 const createOption = require('../util/option.js')
 module.exports = async (query, request) => {
